@@ -1,4 +1,4 @@
-#the feature profile of glioma-associated macrophages/microglia (GAMM) from multiple scRNA-seq data
+# the feature profile of glioma-associated macrophages/microglia (GAMM) from multiple scRNA-seq data
 
 Code associated with "The GAMM cell-population related non-coding feature drive the progression of gliomas"
 
@@ -8,7 +8,7 @@ Code associated with "The GAMM cell-population related non-coding feature drive 
 
 * Download the scripts in the(scripts/) (https://github.com/Hecunzou/GAMM/tree/main/scripts) directory. Create a project or environment, and install the following packages (e.g. [Seurat](https://satijalab.org/seurat), [infercnv](https://github.com/broadinstitute/infercnv/wiki)). 
 
-##Analysis of scRNA-seq data
+## Analysis of scRNA-seq data
 
 * The snRNA-seq data were processed with Seurat package (v4.3.0) in R (v4.2.0). First, each gene detected in more than 50 cells was considered as expressed, and each cell with at least 200 expressed features were retained for creating Seurat object. 
 * Viable single cells were identified based on total counts abundance, effective number of features, and suitable mitochondria fraction. 
