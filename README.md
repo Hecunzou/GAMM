@@ -4,9 +4,9 @@ Code associated with "The GAMM cell-population related non-coding feature drive 
 
 ## Preparation
 
-* Download scRNA-seq data from [GEO](https://www.ncbi.nlm.nih.gov/geo) database. Move it to the (data/) (https://github.com/Hecunzou/GAMM/tree/main/data) directory (e.g. ```zcat file.gz | mv - data/.```). The samples information was summarized in Supplementary Tables.
+* Download scRNA-seq data from [GEO](https://www.ncbi.nlm.nih.gov/geo) database. Move it to the (data/)(https://github.com/Hecunzou/GAMM/tree/master/data) directory (e.g. ```zcat file.gz | mv - data/.```). The samples information was summarized in Supplementary Tables.
 
-* Download the scripts in the(scripts/) (https://github.com/Hecunzou/GAMM/tree/main/scripts) directory. Create a project or environment, and install the following packages (e.g. [Seurat](https://satijalab.org/seurat), [infercnv](https://github.com/broadinstitute/infercnv/wiki)). 
+* Download the scripts in the(scripts/)(https://github.com/Hecunzou/GAMM/tree/master/scripts) directory. Create a project or environment, and install the following packages (e.g. [Seurat](https://satijalab.org/seurat), [infercnv](https://github.com/broadinstitute/infercnv/wiki)). 
 
 ## Analysis of scRNA-seq data
 
